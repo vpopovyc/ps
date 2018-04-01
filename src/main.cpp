@@ -14,10 +14,12 @@
 
 int main(void)
 {
+	// Init particle system for defined size
 	ParticleSystem particleSystem;
 
 	do {
-
+		// Draw particles
+		// Receive event from sdl => update gl's vbo using cl_mem obj
 	}
 	while (particleSystem.receiveEvent());
 	

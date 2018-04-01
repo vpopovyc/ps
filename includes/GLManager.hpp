@@ -18,6 +18,11 @@ class GLManager {
 public:
 	GLManager();
 	~GLManager();
+
+	static void loadShaderProgram(const char *vert_shader, const char *frag_shader);
+
+private:
+	GLuint m_shaderProgram;
 };
 
 #endif
