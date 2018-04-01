@@ -15,4 +15,11 @@
 int main(void)
 {
 	ParticleSystem particleSystem;
+
+	do {
+
+	}
+	while (particleSystem.receiveEvent());
+	
+	return (EXIT_SUCCESS);
 }

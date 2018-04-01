@@ -15,12 +15,17 @@
 ParticleSystem::ParticleSystem() :
 	m_gl(new GLManager()),
 	m_cl(new CLManager()),
-	m_sdl(new SDLManager())
+	m_sdl(new SDLManager(800, 600, "particle_system"))
 {
-	std::cout << "ParticleSystem created\n";
+
 }
 
 ParticleSystem::~ParticleSystem()
 {
-	std::cout << "ParticleSystem destroyed\n";
+
+}
+
+bool ParticleSystem::receiveEvent() const
+{
+	return (m_sdl->receiveEvent());
 }

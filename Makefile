@@ -21,7 +21,7 @@ OBJ = $(SRC:.cpp=.o)
 
 CC = clang++
 
-CCFLAGS = -Wall -Wextra -Werror
+CCFLAGS = -Wall -Wextra -Werror -g
 
 PSINC = -Iincludes
 
