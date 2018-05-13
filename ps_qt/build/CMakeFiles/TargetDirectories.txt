@@ -1,0 +1,4 @@
+/Users/vpopovyc/ps_qt/ps_qt/build/CMakeFiles/rebuild_cache.dir
+/Users/vpopovyc/ps_qt/ps_qt/build/CMakeFiles/edit_cache.dir
+/Users/vpopovyc/ps_qt/ps_qt/build/CMakeFiles/ps_qt.dir
+/Users/vpopovyc/ps_qt/ps_qt/build/CMakeFiles/ps_qt_autogen.dir
